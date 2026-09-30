@@ -16,17 +16,19 @@ __pycache__/
 .ipynb_checkpoints/
 *.egg-info/
 
-# Datasets, model weights, generated predictions, and training outputs
-/data/
-/models/
-/weights/
-/checkpoints/
-/checkpoint-*/
-/outputs/
-/results/
-/cache/
-/logs/
-/wandb/
+# The public evaluation data/ directory is tracked.
+# Private corpora, weights, predictions, and generated training artifacts are not.
+private_data/
+training_data/
+models/
+weights/
+checkpoints/
+checkpoint-*/
+outputs/
+results/
+cache/
+logs/
+wandb/
 *.safetensors
 *.pt
 *.pth
@@ -43,6 +45,11 @@ __pycache__/
 /figures/*.svg
 /manual_check/*.xlsx
 /manual_check/*.csv
+/code/figures/*.pdf
+/code/figures/*.png
+/code/figures/*.svg
+/code/manual_check/*.xlsx
+/code/manual_check/*.csv
 
 # Editor and operating-system metadata
 .DS_Store

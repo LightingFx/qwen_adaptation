@@ -1,0 +1,2 @@
+{"loc": "college_mathematics1", "polished_ti_content": "ཨང་རྟགས། $f(x)=\\frac{x-x^3}{\\sin \\pi x}$ གི་སྤོ་འབུད་ཆོད་ཚད་ཀྱི་གྲངས་ཀ་ནི།\nA 1 \nB མཐའ་མེད་པ་མང་པོ། \nC 3 \nD 2", "answer": "C"}
+{"loc": "college_mathematics2", "polished_ti_content": "གལ་ཏེ་ $f(x)$ ཀྱི་འགྱུར་རྟགས་ $2^x(\\ln 2)^2$ ཡིན་ན། $f(x)$ ནི ( ) ཡིན།\nA $\\frac{1}{\\ln 2} \\cdot 2^x+C$ \nB $2^x(\\ln 2)^2+C$ \nC $2^x+C$ \nD $2^x \\ln 2+C$", "answer": "D"}
