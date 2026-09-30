@@ -1,0 +1,7 @@
+[
+  {
+    "instruction": "Repeat the input exactly.",
+    "input": "example",
+    "output": "example"
+  }
+]

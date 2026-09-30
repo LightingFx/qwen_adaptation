@@ -1,0 +1,51 @@
+# Local credentials and machine settings
+.env
+.env.*
+!.env.example
+.ssh/
+*.pem
+*.key
+.netrc
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# Datasets, model weights, generated predictions, and training outputs
+/data/
+/models/
+/weights/
+/checkpoints/
+/checkpoint-*/
+/outputs/
+/results/
+/cache/
+/logs/
+/wandb/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.zip
+*.tar
+*.tar.gz
+*.log
+
+# Generated figures and completed manual annotations
+/figures/*.pdf
+/figures/*.png
+/figures/*.svg
+/manual_check/*.xlsx
+/manual_check/*.csv
+
+# Editor and operating-system metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

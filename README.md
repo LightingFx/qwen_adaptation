@@ -8,8 +8,11 @@ The two-stage route's CPT driver is not included in this code attachment.
 
 ## Layout and environment
 
-Unzip `code.zip` and `data.zip` into the same directory. Run the commands below
-from `code/`; the evaluation inputs are then in `../data/`.
+For this Git checkout, run the commands below from the repository root.
+Extract the separately supplied `data.zip` into the repository's parent
+directory so that the evaluation inputs are in `../data/`.
+For the submission attachments, unzip `code.zip` and `data.zip` into the same
+directory and run the commands from `code/`, which uses the same relative paths.
 Python 3.10 or newer is required. The training/evaluation dependency files
 record the currently inspected reference environment, not a guarantee of every
 historical run's environment. Install a compatible CUDA/PyTorch stack on GPU
