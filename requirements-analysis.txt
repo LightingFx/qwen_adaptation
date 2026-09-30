@@ -1,0 +1,6 @@
+numpy
+sacrebleu==2.5.1
+sentencepiece
+scipy
+matplotlib
+openpyxl

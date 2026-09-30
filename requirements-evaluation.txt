@@ -1,0 +1,3 @@
+vllm==0.29.0
+sacrebleu==2.5.1
+sentencepiece
